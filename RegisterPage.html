@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    	<script src="RegisterPage.js"></script>
+    	<style type="text/css">
+    	.btn-primary {width: 85px;
+				      height:35px; 
+    			      position:relative;
+    			      font-size: 14px;
+    			      color: white;				
+				      display:block; 
+    			      width:20%; 
+    			      font-size:14px;
+    			      border:none;
+    			      text-decoration:none;
+    			      border-radius:2px;
+    			      background-color: #FF7F50;}	
+ 		body {
+ 			background-image: url("nature-wallpaper-android-1.jpg");
+ 			color:black;
+			}
+		h3 {color:red;}
+		legend {color:black;}
+		label {color:blue;}		
+		</style>
+	</head>
+		<title>Register</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+	<br />
+	<br />
+	<br />
+	<div class="container">
+  		<div class="well">
+			<h3>Since you are new to Stumbler, please register below.</h3>
+			<fieldset>
+				<legend>Register</legend>
+    			<label for="user" class="control-label col-sm-2">User:</label>
+    			<div class="col-sm-10"><input type="text" class="form-control" id="user" /></div>
+    			<label for="password" class="control-label col-sm-2">Password:</label>
+    			<div class="col-sm-10"><input type="password" class="form-control" id="password" /></div>
+    			<label for="confirmpassword" class="control-label col-sm-2">Confirm Password:</label>
+    			<div class="col-sm-10"><input type="password" class="form-control" id="confirmpassword" /></div>
+    			<label for="bio" class="control-label col-sm-2">Provide a Bio:</label>
+   				<div class="col-sm-10"><textarea class="form-control" id="bio" rows=10></textarea></div>
+   				<label for="title" class="control-label col-sm-2">Title of Blog:</label>
+   				<div class="col-sm-10"><input type="text" class="form-control" id="title" /></div>
+   	 			<div class="col-sm-offset-2 col-sm-10"><button id="register" class="btn btn-primary">Register</button></div>
+   	 		</fieldset>
+   	 	</div>
+   	 </div>
+</body>	
+</html>
